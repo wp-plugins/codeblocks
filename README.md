@@ -59,9 +59,9 @@ add_filter('codeblocks/rainbow_theme', function($oldURL) {
 Changelog
 ---------
 
-1.0.2 (current)
+1.1.0 (current)
 
-* Fixed an issue with Codeblocks hooks incorrectly named
+* Merged ACF Plugin dependency with Codeblocks
 
 1.0.1
 

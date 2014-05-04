@@ -60,7 +60,7 @@ jQuery(function($){
   };
 });
 
-
+	
 	CodeMirror.modeURL = codemirror_url + "/%N.js";
 	
 	var ConfigureBlock = function(element) {

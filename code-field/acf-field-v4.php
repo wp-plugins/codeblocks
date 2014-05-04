@@ -58,6 +58,7 @@ class acf_field_Codeblocks extends acf_field
 	}
 	function input_admin_enqueue_scripts() {
 		wp_enqueue_script('codeblocks_mirror', plugins_url('js/codemirror.js', CODEBLOCKS));
+		wp_enqueue_script('codeblocks_mirror_autoload', plugins_url('js/codemirror.autoload.js', CODEBLOCKS), array('codeblocks_mirror'));
 		$languages = array(
 			'none' => '-- Do not highlight code --',
 			'c' => 'C',
