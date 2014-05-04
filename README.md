@@ -59,7 +59,11 @@ add_filter('codeblocks/rainbow_theme', function($oldURL) {
 Changelog
 ---------
 
-1.0.1 (current)
+1.0.2 (current)
+
+* Fixed an issue with Codeblocks hooks incorrectly named
+
+1.0.1
 
 * Fixed an issue with CodeMirror dependencies
 * Fixed an issue with PHP Language highlighting

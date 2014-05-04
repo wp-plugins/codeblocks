@@ -3,7 +3,7 @@ class Codeblocks {
 	public $filter_cache, $filter_data;
 	
 	public function __construct() {		
-		add_action('loaded', array($this, 'loaded'));
+		add_action('plugins_loaded', array($this, 'loaded'));
 		add_action('admin_notices', array($this, 'notices'));
 
 		$this->filter_cache = array(
